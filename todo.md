@@ -1,0 +1,24 @@
+# Android Prank App Development
+
+- [X] 1. Gather Requirements (Done)
+- [ ] 2. Design App Architecture
+    - [X] Define basic structure (single activity, one button)
+    - [X] Plan sound extraction
+- [ ] 3. Extract Sound
+    - [X] Install `yt-dlp` and `ffmpeg`
+    - [X] Download audio from YouTube link
+    - [X] Convert audio to a suitable format (e.g., mp3 or ogg)
+- [ ] 4. Develop Android App
+    - [X] Set up Android project structure (using standard tools/templates if possible, or manually creating files)
+    - [X] Create UI layout (activity_main.xml) with a button
+    - [X] Implement MainActivity.java (or Kotlin) to handle button click and play sound
+    - [X] Add sound file to resources (res/raw)
+    - [X] Configure AndroidManifest.xml
+    - [X] Set up build configuration (build.gradle)
+- [ ] 5. Build and Test App
+    - [!] Compile the app into an APK (Build failed due to environment limitations)
+    - [!] Test functionality (button click plays sound) - *Skipped due to build failure*
+- [ ] 6. Prepare for Deployment
+    - [ ] Finalize APK
+- [ ] 7. Report and Send App
+    - [ ] Notify user and provide the APK file
